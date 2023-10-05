@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "custom:item/1001-strawberry_sprinkles"
+  }
+}

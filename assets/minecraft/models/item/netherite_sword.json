@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_sword"
+  },
+
+  "overrides": [
+    {	
+      "predicate": {"custom_model_data": 13001},
+      "model": "custom:item/13001-traverse_blade"
+    },
+    {	
+      "predicate": {"custom_model_data": 13002},
+      "model": "custom:item/13002-blade_of_vitality"
+    }
+    ]
+}
