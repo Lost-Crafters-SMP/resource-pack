@@ -30,7 +30,7 @@ echo "Git Commit ID: ${GIT_COMMIT_ID}"
 # Create a new resource pack zip
 RESOURCE_PACK_ZIP="resourcepack-${GIT_COMMIT_ID}.zip"
 
-rm -f ${SERVER_RESOURCE_PATH}/*.zip
+# rm -f ${SERVER_RESOURCE_PATH}/*.zip # disabled while testing the script
 zip ${SERVER_RESOURCE_PATH}/${RESOURCE_PACK_ZIP} ${RESOURCE_PACK_FOLDER}/assets ${RESOURCE_PACK_FOLDER}/pack.mcmeta ${RESOURCE_PACK_FOLDER}/pack.png
 
 # Generate SHA1 sum
