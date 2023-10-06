@@ -2,5 +2,37 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "minecraft:item/written_book"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 6000
+      },
+      "model": "custom:item/6000-keycard_lvl1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6001
+      },
+      "model": "custom:item/6001-keycard_lvl2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6002
+      },
+      "model": "custom:item/6002-keycard_lvl3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6003
+      },
+      "model": "custom:item/6003-keycard_lvl4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6004
+      },
+      "model": "custom:item/6004-keycard_lvl5"
+    }
+  ]
 }
