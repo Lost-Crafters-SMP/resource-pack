@@ -7,8 +7,6 @@ SERVER_PATH=/var/lib/pterodactyl/volumes/6579b795-e795-4df0-b8aa-e9cc4c637bc2 # 
 SERVER_RESOURCE_PATH=/home/ubuntu/lostcraftersweb/html/resourcepack
 SERVER_RESOURCE_URI="https\\\:\/\/www.lostcrafterssmp.com\/resourcepack\/"
 
-CURRENT_PATH=`pwd`
-
 # Checkout latest pack
 command_result=`git -C ${RESOURCE_PACK_FOLDER} checkout main`
 command_result_exit_code=$?
