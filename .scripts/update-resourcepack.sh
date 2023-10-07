@@ -40,6 +40,7 @@ RESOURCE_PACK_ZIP="resourcepack-${GIT_COMMIT_ID}.zip"
 OLDEST_RESOURCE_PACK="$(ls ${SERVER_RESOURCE_PATH} -lt | grep -v '^d' | tail -1 | awk '{print $NF}')"
 rm -f ${SERVER_RESOURCE_PATH}/${OLDEST_RESOURCE_PACK}
 
+# todo: check to see if file exists
 zip ${SERVER_RESOURCE_PATH}/${RESOURCE_PACK_ZIP} ${RESOURCE_PACK_FOLDER}/assets ${RESOURCE_PACK_FOLDER}/pack.mcmeta ${RESOURCE_PACK_FOLDER}/pack.png
 
 # Generate SHA1 sum
