@@ -61,3 +61,8 @@ sed -i.bak "s/^\(resource-pack=\).*/\1${SERVER_RESOURCE_URI}${RESOURCE_PACK_ZIP}
 sed -i "s/^\(resource-pack-sha1=\).*/\1${RESOURCE_PACK_SHA1}/" "${SERVER_PATH}/${TEST_SERVER_ID}/server.properties"
 
 # Done
+
+# this bash script should just be refactored as functions
+# notes:
+# - create main script that has all the logic for processing flags and call the functions
+# - can move the function.sh scripts to a folder or use a file name pattern, such as zyz.function.sh and source them
