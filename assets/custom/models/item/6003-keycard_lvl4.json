@@ -1,0 +1,6 @@
+{
+  "parent": "custom:item/template/keycard",
+  "textures": {
+    "color": "minecraft:block/orange_wool"
+  }
+}
