@@ -42,7 +42,7 @@ rm -f ${SERVER_RESOURCE_PATH}/${OLDEST_RESOURCE_PACK}
 
 # todo: check to see if file exists
 # zip ${SERVER_RESOURCE_PATH}/${RESOURCE_PACK_ZIP} ${RESOURCE_PACK_FOLDER}/assets ${RESOURCE_PACK_FOLDER}/pack.mcmeta ${RESOURCE_PACK_FOLDER}/pack.png
-cd ${RESOURCE_PACK_FOLDER} && zip ${SERVER_RESOURCE_PATH}/${RESOURCE_PACK_ZIP} assets pack.mcmeta pack.png && cd -
+cd ${RESOURCE_PACK_FOLDER} && zip -r ${SERVER_RESOURCE_PATH}/${RESOURCE_PACK_ZIP} assets pack.mcmeta pack.png && cd -
 
 # Generate SHA1 sum
 RESOURCE_PACK_SHA1=`sha1sum ${SERVER_RESOURCE_PATH}/${RESOURCE_PACK_ZIP} | awk '{print $1}'`
