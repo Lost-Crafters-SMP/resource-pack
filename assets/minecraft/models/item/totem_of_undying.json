@@ -2,5 +2,11 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "minecraft:item/totem_of_undying"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 16000 },
+      "model": "custom:item/16000-blahaj"
+    }
+  ]
 }
