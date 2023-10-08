@@ -5,8 +5,17 @@
   },
 
   "overrides": [
-    {	
-      "predicate": {"custom_model_data": 3001},
-      "model": "custom:item/3001-giantpickaxe"}
-    ]
+    {
+      "predicate": { "custom_model_data": 3000 },
+      "model": "custom:item/3000-battery_fortune_pickaxe"
+    },
+    {
+      "predicate": { "custom_model_data": 3001 },
+      "model": "custom:item/3001-giantpickaxe"
+    },
+    {
+      "predicate": { "custom_model_data": 3002 },
+      "model": "custom:item/3002-battery_silk_pickaxe"
+    }
+  ]
 }
