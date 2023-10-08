@@ -2,5 +2,25 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "minecraft:item/beetroot"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2007
+      },
+      "model": "custom:item/2007-chocolate_icecream"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2008
+      },
+      "model": "custom:item/2008-vanilla_icecream"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2009
+      },
+      "model": "custom:item/2009-strawberry_icecream"
+    }
+  ]
 }

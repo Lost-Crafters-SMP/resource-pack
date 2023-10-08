@@ -1,7 +1,27 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/potion_overlay",
-        "layer1": "item/potion"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/potion_overlay",
+    "layer1": "minecraft:item/potion"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2004
+      },
+      "model": "custom:item/2004-blue_slushee"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2005
+      },
+      "model": "custom:item/2005-red_slushee"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2006
+      },
+      "model": "custom:item/2006-yellow_slushee"
     }
+  ]
 }
