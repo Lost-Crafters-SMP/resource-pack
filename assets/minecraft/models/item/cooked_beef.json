@@ -2,5 +2,13 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "minecraft:item/cooked_beef"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2003
+      },
+      "model": "custom:item/2003-hamburger"
+    }
+  ]
 }
