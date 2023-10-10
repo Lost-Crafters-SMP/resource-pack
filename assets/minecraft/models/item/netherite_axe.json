@@ -2,5 +2,12 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "minecraft:item/netherite_axe"
-  }
+  },
+
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 3002 },
+      "model": "custom:item/3003-battery_hatchet"
+    }
+  ]
 }
