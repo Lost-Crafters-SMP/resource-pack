@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/handheld",
+  "parent": "custom:item/template/large_tool",
   "textures": {
     "layer0": "custom:item/3003-battery_hatchet"
   }
