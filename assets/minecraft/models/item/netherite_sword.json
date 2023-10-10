@@ -6,6 +6,10 @@
 
   "overrides": [
     {	
+      "predicate": {"custom_model_data": 3005},
+      "model": "custom:item/3005-battery_sword"
+    },
+    {	
       "predicate": {"custom_model_data": 13001},
       "model": "custom:item/13001-traverse_blade"
     },
