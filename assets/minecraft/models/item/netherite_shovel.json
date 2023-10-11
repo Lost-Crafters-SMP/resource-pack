@@ -2,5 +2,12 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "minecraft:item/netherite_shovel"
-  }
+  },
+
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 3004 },
+      "model": "custom:item/3004-battery_shovel"
+    }
+  ]
 }
