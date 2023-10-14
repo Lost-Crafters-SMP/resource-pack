@@ -33,6 +33,11 @@ echo "Git Commit ID: ${GIT_COMMIT_ID}"
 # Create a new resource pack zip
 RESOURCE_PACK_ZIP="resourcepack-${GIT_COMMIT_ID}.zip"
 
+if [[ -f "${SERVER_RESOURCE_PATH}/${RESOURCE_PACK_ZIP}" ]]; then
+    echo "Resource pack already exists, no need to do anything..."
+    exit 0 # exit as there is no need to continue
+fi
+
 # todo: add variable to skip rm (for running manually)
 # todo: add option for number of resource packs to keep
 
