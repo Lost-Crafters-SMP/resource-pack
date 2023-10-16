@@ -41,7 +41,7 @@
       "predicate": {
         "custom_model_data": 4000
       },
-      "model": "custom:item/corn"
+      "model": "custom:item/4000-corn"
     }
   ]
 }
