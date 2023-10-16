@@ -3,40 +3,12 @@
   "textures": {
     "layer0": "minecraft:item/golden_carrot"
   },
-
   "overrides": [
-    {	
-      "predicate": {"custom_model_data": 1000},
-      "model": "custom:item/1000-coffee_cup"
-    },
-    {	
-      "predicate": {"custom_model_data": 1001},
-      "model": "custom:item/1001-strawberry_sprinkles"
-    },
-    {	
-      "predicate": {"custom_model_data": 1002},
-      "model": "custom:item/1002-chocolate_sprinkles"
-    },
-    {	
-      "predicate": {"custom_model_data": 1003},
-      "model": "custom:item/1003-chocolate_dip"
-    },
-    {	
-      "predicate": {"custom_model_data": 1004},
-      "model": "custom:item/1004-plain_donut"
-    },
-    {	
-      "predicate": {"custom_model_data": 1005},
-      "model": "custom:item/1005-maple_dip"
-    },
-    {	
-      "predicate": {"custom_model_data": 1006},
-      "model": "custom:item/1006-breakfast_sandwich"
-    },
-    {	
-      "predicate": {"custom_model_data": 1007},
-      "model": "custom:item/1007-breakfast_wrap"
+    {
+      "predicate": {
+        "custom_model_data": 4000
+      },
+      "model": "custom:item/corn"
     }
-    
-    ]
+  ]
 }
