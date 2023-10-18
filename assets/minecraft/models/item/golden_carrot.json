@@ -38,9 +38,7 @@
       "model": "custom:item/1007-breakfast_wrap"
     },
     {
-      "predicate": {
-        "custom_model_data": 4000
-      },
+      "predicate": { "custom_model_data": 4000 },
       "model": "custom:item/4000-corn"
     }
   ]
