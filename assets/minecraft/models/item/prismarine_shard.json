@@ -2,5 +2,75 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "minecraft:item/prismarine_shard"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 7000 },
+      "model": "custom:item/7000-redornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7001 },
+      "model": "custom:item/7001-orangeornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7002 },
+      "model": "custom:item/7002-yellowornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7003 },
+      "model": "custom:item/7003-limegreenornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7004 },
+      "model": "custom:item/7004-greenornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7005 },
+      "model": "custom:item/7005-cyanornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7006 },
+      "model": "custom:item/7006-lightblueornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7007 },
+      "model": "custom:item/7007-blueornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7008 },
+      "model": "custom:item/7008-purpleornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7009 },
+      "model": "custom:item/7009-magentaornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7010 },
+      "model": "custom:item/7010-pinkornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7011 },
+      "model": "custom:item/7011-brownornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7012 },
+      "model": "custom:item/7012-blackornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7013 },
+      "model": "custom:item/7013-greyornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7014 },
+      "model": "custom:item/7014-lightgreyornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7015 },
+      "model": "custom:item/7015-whiteornamentcollectable"
+    },
+    {
+      "predicate": { "custom_model_data": 7016 },
+      "model": "custom:item/7016-rainbowornamentcollectable"
+    }
+  ]
 }
