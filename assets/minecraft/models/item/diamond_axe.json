@@ -2,5 +2,11 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "minecraft:item/diamond_axe"
+  },
+       "overrides": [
+      {
+        "predicate": { "custom_model_data": 7017 },
+        "model": "custom:item/7017-zeekatshammer"
+      }
+    ]
   }
-}
