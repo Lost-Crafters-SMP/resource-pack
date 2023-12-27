@@ -1,0 +1,82 @@
+{
+	"credit": "by Hoffen _InkGhoul",
+	"texture_size": [400, 260],
+	"textures": {
+		"1": "custom:item/hg_textures/hg_painting_textures"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, 0],
+			"to": [16, 32, 1],
+			"faces": {
+				"north": {"uv": [0.04, 8.24615, 2.6, 12.18462], "texture": "#1"},
+				"east": {"uv": [4.16, 8.36923, 4.2, 10.21538], "texture": "#1"},
+				"south": {"uv": [2.64, 10.89231, 3.12, 11.63077], "texture": "#1"},
+				"west": {"uv": [4.16, 8.36923, 4.2, 10.21538], "texture": "#1"},
+				"up": {"uv": [2.64, 8.24615, 3.84, 8.30769], "texture": "#1"},
+				"down": {"uv": [2.64, 8.24615, 3.84, 8.30769], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-7.8, 0.7, -0.01],
+			"to": [9.2, 8.7, -0.01],
+			"faces": {
+				"north": {"uv": [2.32, 12.30769, 3.6, 13.16923], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 1], "texture": "#1"},
+				"south": {"uv": [4.44, 9.32, 4.965, 10.32], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 1], "texture": "#1"},
+				"up": {"uv": [2.125, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [2.125, 0, 0, 0], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-151, 0, -180],
+			"translation": [-1.5, 1.75, -0.25],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-151, 0, -180],
+			"translation": [1.5, 1.75, -0.25],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [133.57, 27.44, -171.31],
+			"translation": [-0.5, 1.75, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [177.75, 2.25, -179.91],
+			"translation": [1.75, 3.25, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [4.25, -5, -3.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [-36.64, -7.54, -31],
+			"translation": [0.75, -1.5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"head": {
+			"rotation": [90, 0, 0],
+			"translation": [7, -0.5, -7.5]
+		},
+		"fixed": {
+			"translation": [0, 0, 14],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}
