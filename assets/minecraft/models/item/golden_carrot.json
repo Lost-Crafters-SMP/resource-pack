@@ -5,6 +5,16 @@
   },
 
   "overrides": [
+    { "predicate": {"custom_model_data": 1}, "model": "custom:item/scarcookies2"},
+    { "predicate": {"custom_model_data": 2}, "model": "custom:item/jellie_pop"},
+    { "predicate": {"custom_model_data": 3}, "model": "custom:item/jellie_icecream_sandwich"},
+    { "predicate": {"custom_model_data": 4}, "model": "custom:item/scarland_popcorn"},
+    { "predicate": {"custom_model_data": 5}, "model": "custom:item/scarland_churro"},
+    { "predicate": {"custom_model_data": 6}, "model": "custom:item/scarland_slushie"},
+    { "predicate": {"custom_model_data": 7}, "model": "custom:item/scarland_slushie"},
+    { "predicate": {"custom_model_data": 8}, "model": "custom:item/scarland_slushie"},
+    { "predicate": {"custom_model_data": 9}, "model": "custom:item/scarpancakes"},
+    { "predicate": {"custom_model_data": 10}, "model": "custom:item/scarpancakeswsyrup"},
     {
       "predicate": { "custom_model_data": 1000 },
       "model": "custom:item/1000-coffee_cup"
@@ -40,16 +50,6 @@
     {
       "predicate": { "custom_model_data": 4000 },
       "model": "custom:item/4000-corn"
-    },
-    { "predicate": {"custom_model_data": 1}, "model": "custom:item/scarcookies2"},
-    { "predicate": {"custom_model_data": 2}, "model": "custom:item/jellie_pop"},
-    { "predicate": {"custom_model_data": 3}, "model": "custom:item/jellie_icecream_sandwich"},
-    { "predicate": {"custom_model_data": 4}, "model": "custom:item/scarland_popcorn"},
-    { "predicate": {"custom_model_data": 5}, "model": "custom:item/scarland_churro"},
-    { "predicate": {"custom_model_data": 6}, "model": "custom:item/scarland_slushie"},
-    { "predicate": {"custom_model_data": 7}, "model": "custom:item/scarland_slushie"},
-    { "predicate": {"custom_model_data": 8}, "model": "custom:item/scarland_slushie"},
-    { "predicate": {"custom_model_data": 9}, "model": "custom:item/scarpancakes"},
-    { "predicate": {"custom_model_data": 10}, "model": "custom:item/scarpancakeswsyrup"}
+    }
   ]
 }
