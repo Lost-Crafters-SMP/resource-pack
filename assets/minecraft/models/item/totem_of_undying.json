@@ -6,15 +6,15 @@
   "overrides": [
     {
       "predicate": {
-        "custom_model_data": 16000
-      },
-      "model": "custom:item/16000-blahaj"
-    },
-    {
-      "predicate": {
         "custom_model_data": 1
       },
       "model": "custom:item/allay_of_undying"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16000
+      },
+      "model": "custom:item/16000-blahaj"
     }
   ],
   "display": {
