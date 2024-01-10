@@ -110,6 +110,7 @@
 	{"predicate": {"custom_model_data":255}, "model": "custom:item/bingo_cards/bingocard6"},
 	{"predicate": {"custom_model_data":256}, "model": "custom:item/bingo_cards/bingocard7"},
 
-	{"predicate": {"custom_model_data":257}, "model": "custom:item/do/cards/totem_power"}
+	{"predicate": {"custom_model_data":257}, "model": "custom:item/do/cards/totem_power"},
+	{"predicate": {"custom_model_data":258}, "model": "custom:item/do/cards/training_wheels"}
   ]
 }
